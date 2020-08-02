@@ -1,0 +1,12 @@
+---
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: smallcase-develop
+commonLabels:
+  app: smallcase-flask
+images:
+  - name: 374191519168.dkr.ecr.us-east-2.amazonaws.com/smallcase-app # match images with this name
+    newTag: develop # override the tag
+    newName: 374191519168.dkr.ecr.us-east-2.amazonaws.com/smallcase-app # override the name
+bases:
+- ../yamlFiles

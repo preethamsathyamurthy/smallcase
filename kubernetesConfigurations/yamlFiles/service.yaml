@@ -1,0 +1,12 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: smallcase-flask
+spec:
+  selector:
+    app: smallcase-flask
+  type: NodePort
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
