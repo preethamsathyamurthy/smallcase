@@ -20,30 +20,6 @@ The document describes about setting up a CI/CD pipeline where the pipeline
 
 * `Deploys` the app on a cloud managed, Kubernetes Orchestrated cluster
 
-  
-
----
-
-
-
-## Information for Quick Reference
-
-* **The Jenkins Pipeline built can be accesses by using the below URL**
-  * http://3.21.246.150:8080/blue/pipelines
-  * **Credentials:**  **user name:** smallcase  **Password:**  smallcase
-* **The Github Repository used:**
-  * https://github.com/preethamsathyamurthy/smallcase
-* **Application URLs:**
-  * **Production / Blue :** http://1dc416ec-smallcaseblue-sma-7333-601526487.us-east-2.elb.amazonaws.com/
-  * **Staging / Green:** http://1dc416ec-smallcasegreen-sm-2779-279930803.us-east-2.elb.amazonaws.com/
-  * **Develop:** http://1dc416ec-smallcasedevelop--7032-1826379530.us-east-2.elb.amazonaws.com/
-
-
-
-## Table of Contents
-
-[TOC]
-
 ---
 
 ## Tool Stack
@@ -2020,17 +1996,3 @@ The pipeline will be initiated. It will take some time around 5 minutes for the 
 ## Conclusion
 
 Now we have CI/CD pipeline that satisfies our objectives mentioned in the overview. There are many more things that can be added like automated unit tests, automated semantic versioning and tagging, etc depending on the need. 
-
-
-
-## Information for Quick Reference
-
-* **The Jenkins Pipeline built can be accesses by using the below URL**
-  * http://3.21.246.150:8080/blue/pipelines
-  * **Credentials:**  **user name:** smallcase  **Password:**  smallcase
-* **The Github Repository used:**
-  * https://github.com/preethamsathyamurthy/smallcase
-* **Application URLs:**
-  * **Production / Blue :** http://1dc416ec-smallcaseblue-sma-7333-601526487.us-east-2.elb.amazonaws.com/
-  * **Staging / Green:** http://1dc416ec-smallcasegreen-sm-2779-279930803.us-east-2.elb.amazonaws.com/
-  * **Develop:** http://1dc416ec-smallcasedevelop--7032-1826379530.us-east-2.elb.amazonaws.com/
